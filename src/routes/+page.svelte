@@ -1,1 +1,1 @@
-<h1>KI Abschlussprüfung</h1>
+<h1>Appartment</h1>
