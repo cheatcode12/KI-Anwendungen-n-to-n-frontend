@@ -1,1 +1,1 @@
-<h1>Appartment</h1>
+<h1>Diabetes-Prognosse</h1>
