@@ -19,7 +19,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="/appartment">Appartment Regression</a>
+            <a class="nav-link" href="/appartment">Diabetes-Prognosse</a>
           </li>
         </ul>
       </div>
