@@ -89,7 +89,7 @@
 </style>
 
 <div class="container">
-	<h1>Diabetes-Prognosse</h1>
+	<h1>Diabetes-Prognose</h1>
 	<div>
 		<label>Geschlecht:</label>
 		<select bind:value={gender_encoded}>
