@@ -1,1 +1,1 @@
-<h1>Diabetes-Prognosse</h1>
+<h1>Diabetes-Prognose</h1>

@@ -86,10 +86,22 @@
 	button:hover {
 		background-color: #003f8a;
 	}
+	.image-container {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
 </style>
 
 <div class="container">
-	<h1>Diabetes-Prognosse</h1>
+	<h1>Diabetes-Prognose</h1>
 	<div>
 		<label>Geschlecht:</label>
 		<select bind:value={gender_encoded}>
@@ -122,4 +134,8 @@
 	</div>
 	<button on:click={handleSubmit}>Risiko berechnen</button>
 	<p>{predictionMessage}</p>
+
+	<div class="image-container">
+        <img src="./Diabetes.JPG" alt="Diabetes Bild">
+    </div>
 </div>
