@@ -1,4 +1,5 @@
 <script>
+	import { PUBLIC_BASE_URL } from '$env/static/public';
 	import axios from 'axios';
 
 	let gender_encoded = 0; // 0 für Female, 1 für Male jj
@@ -10,7 +11,7 @@
 
 	async function handleSubmit() {
 		try {
-			const response = await axios.get('http://localhost:5000/api/predict-diabetes', {
+			const response = await axios.get(PUBLIC_BASE_URL, {
 				params: {
 					age: age || 0,
 					bmi: bmi || 0,
