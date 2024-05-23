@@ -11,7 +11,7 @@
 
 	async function handleSubmit() {
 		try {
-			const response = await axios.get(PUBLIC_BASE_URL, {
+			const response = await axios.get(`${PUBLIC_BASE_URL}/api/predict-diabetes`, {
 				params: {
 					age: age || 0,
 					bmi: bmi || 0,
